@@ -15,7 +15,7 @@ import com.hcl.usaa.timesheet.hibernate.util.HibernateUtil;
 
 public class Main {
 	public static void main(String[] args) {
-		
+		System.out.println("Subversion");
 		HibernateUtil.configure();
 		
 //		System.out.println(new User().getList(0, 1).size());
